@@ -27,6 +27,8 @@
       <hr />
       <!-- 3) Repeat 2) but only output the entered value if the ENTER key was pressed -->
       <input type="text" v-model="userInput" v-on:keyup.enter="storeInput" />
+      <button v-on:click="resetInput"  >Reset Input</button>
+
 
       <p>OUTPUT {{storedInput}}</p>
     </section>

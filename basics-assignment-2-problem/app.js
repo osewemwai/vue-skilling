@@ -12,6 +12,9 @@ const app = Vue.createApp({
     storeInput() {
       this.storedInput = this.userInput;
     },
+    resetInput() {
+      this.userInput = "";
+    }
   },
 });
 
